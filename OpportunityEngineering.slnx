@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OpportunityEngineering.Api/OpportunityEngineering.Api.csproj" />
+    <Project Path="src/OpportunityEngineering.Application/OpportunityEngineering.Application.csproj" />
+    <Project Path="src/OpportunityEngineering.Domain/OpportunityEngineering.Domain.csproj" />
+    <Project Path="src/OpportunityEngineering.Infrastructure/OpportunityEngineering.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/OpportunityEngineering.ApiTests/OpportunityEngineering.ApiTests.csproj" />
+    <Project Path="tests/OpportunityEngineering.UnitTests/OpportunityEngineering.UnitTests.csproj" />
+  </Folder>
+</Solution>

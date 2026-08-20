@@ -1,0 +1,22 @@
+﻿<Project Sdk="MSTest.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\OpportunityEngineering.Api\OpportunityEngineering.Api.csproj" />
+    <ProjectReference Include="..\..\src\OpportunityEngineering.Infrastructure\OpportunityEngineering.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

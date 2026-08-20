@@ -1,0 +1,34 @@
+{
+  "version": "1.0-evaluation",
+  "effectiveAt": "2026-08-16T00:00:00Z",
+  "mode": "evaluation-only",
+  "approvedBy": "deployment-approval-required",
+  "rollbackReference": "initial-policy",
+  "allowedEvaluationPoints": [
+    "recommendation.submit",
+    "recommendation.model_call",
+    "recommendation.output",
+    "discovery_card_suggestion.model_call",
+    "discovery_card_suggestion.output",
+    "evidence_quality.model_call",
+    "evidence_quality.output",
+    "frame_draft.model_call",
+    "frame_draft.output",
+    "frame_draft.tool_call",
+    "frame_critique.model_call",
+    "frame_critique.output",
+    "artifact_narrative.model_call",
+    "board_cluster.model_call",
+    "board_cluster.output"
+  ],
+  "allowedTools": [
+    "foundry-recommendation",
+    "foundry-discovery-card-suggestion",
+    "foundry-artifact-narrative",
+    "foundry-evidence-quality",
+    "foundry-frame-draft",
+    "foundry-board-cluster",
+    "search-ideation-notes",
+    "foundry-frame-critique"
+  ]
+}

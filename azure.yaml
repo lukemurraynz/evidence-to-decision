@@ -1,0 +1,29 @@
+name: opportunity-engineering
+metadata:
+  template: opportunity-engineering@0.1.0
+infra:
+  provider: bicep
+  path: infra
+services:
+  api:
+    project: src/OpportunityEngineering.Api
+    host: containerapp
+    language: dotnet
+    containerRegistry: ${AZURE_CONTAINER_REGISTRY_ENDPOINT}
+  web:
+    project: frontend
+    host: staticwebapp
+    language: js
+    dist: dist
+    hooks:
+      prepackage:
+        shell: sh
+        run: |
+          cat > public/config.json <<CONFIGEOF
+          {
+            "apiBaseUrl": "${API_URI}",
+            "authClientId": "${AUTH_CLIENT_ID}",
+            "authTenantId": "${ENTRA_TENANT_ID}",
+            "authScope": "${AUTH_SCOPE}"
+          }
+          CONFIGEOF

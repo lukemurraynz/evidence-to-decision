@@ -1,0 +1,18 @@
+﻿<Project Sdk="MSTest.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\OpportunityEngineering.Domain\OpportunityEngineering.Domain.csproj" />
+    <ProjectReference Include="..\..\src\OpportunityEngineering.Application\OpportunityEngineering.Application.csproj" />
+  </ItemGroup>
+
+</Project>

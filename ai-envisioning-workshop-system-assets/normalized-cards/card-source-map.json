@@ -1,0 +1,1739 @@
+{
+  "metadata": {
+    "version": "0.2",
+    "purpose": "Map normalized card objects and categories back to upstream Microsoft source assets and facilitation materials.",
+    "sourceRepository": "microsoft-partner-solutions-ai/agent-guides",
+    "sourcePackage": "ai-discovery-cards-agent",
+    "assetCount": 9,
+    "categoryCount": 13,
+    "cardCount": 79
+  },
+  "assets": [
+    {
+      "assetId": "readme",
+      "path": "source-cards/microsoft-agent-guides/ai-discovery-cards-agent/README.md",
+      "type": "text",
+      "purpose": "package-purpose-and-setup"
+    },
+    {
+      "assetId": "system-instructions",
+      "path": "source-cards/microsoft-agent-guides/ai-discovery-cards-agent/system-instructions.md",
+      "type": "text",
+      "purpose": "facilitator-agent-operating-model"
+    },
+    {
+      "assetId": "knowledge-sources",
+      "path": "source-cards/microsoft-agent-guides/ai-discovery-cards-agent/knowledge-sources.md",
+      "type": "text",
+      "purpose": "reference-sites-and-workshop-assets"
+    },
+    {
+      "assetId": "suggested-prompts",
+      "path": "source-cards/microsoft-agent-guides/ai-discovery-cards-agent/suggested-prompts.md",
+      "type": "text",
+      "purpose": "workshop-prompt-modes"
+    },
+    {
+      "assetId": "cards-txt",
+      "path": "source-cards/microsoft-agent-guides/ai-discovery-cards-agent/uploaded-files/cards.txt",
+      "type": "text-structured",
+      "purpose": "canonical-card-taxonomy-and-card-content"
+    },
+    {
+      "assetId": "ttt-deck",
+      "path": "source-cards/microsoft-agent-guides/ai-discovery-cards-agent/uploaded-files/AI Discovery Cards Workshop TTT_Partners_FY26.pptx",
+      "type": "powerpoint",
+      "purpose": "train-the-trainer-and-live-facilitation-surface"
+    },
+    {
+      "assetId": "faq-doc",
+      "path": "source-cards/microsoft-agent-guides/ai-discovery-cards-agent/uploaded-files/AI Discovery Cards Workshop FAQ.docx",
+      "type": "docx",
+      "purpose": "faq-and-facilitator-reference"
+    },
+    {
+      "assetId": "roth-patterns-deck",
+      "path": "source-cards/microsoft-agent-guides/ai-discovery-cards-agent/uploaded-files/ROTH AI Use Case and Tech Patterns.pptx",
+      "type": "powerpoint",
+      "purpose": "solutioning-and-use-case-pattern-reference"
+    },
+    {
+      "assetId": "partner-execution-guide",
+      "path": "source-cards/microsoft-agent-guides/ai-discovery-cards-agent/uploaded-files/FY26_Partner_Execution_Guide_Oct 2025.pdf",
+      "type": "pdf",
+      "purpose": "partner-execution-and-follow-through-guidance"
+    }
+  ],
+  "categoryAssetMap": [
+    {
+      "categoryId": "navigation-and-control",
+      "displayName": "Navigation And Control",
+      "sourceAssets": [
+        "cards-txt",
+        "system-instructions",
+        "suggested-prompts"
+      ],
+      "presentationAssets": [
+        "ttt-deck"
+      ],
+      "solutioningAssets": [
+        "roth-patterns-deck"
+      ],
+      "followUpAssets": [
+        "faq-doc",
+        "partner-execution-guide"
+      ]
+    },
+    {
+      "categoryId": "environmental-awareness",
+      "displayName": "Environmental Awareness",
+      "sourceAssets": [
+        "cards-txt",
+        "system-instructions",
+        "suggested-prompts"
+      ],
+      "presentationAssets": [
+        "ttt-deck"
+      ],
+      "solutioningAssets": [
+        "roth-patterns-deck"
+      ],
+      "followUpAssets": [
+        "faq-doc",
+        "partner-execution-guide"
+      ]
+    },
+    {
+      "categoryId": "process-optimization",
+      "displayName": "Process Optimization",
+      "sourceAssets": [
+        "cards-txt",
+        "system-instructions",
+        "suggested-prompts"
+      ],
+      "presentationAssets": [
+        "ttt-deck"
+      ],
+      "solutioningAssets": [
+        "roth-patterns-deck"
+      ],
+      "followUpAssets": [
+        "faq-doc",
+        "partner-execution-guide"
+      ]
+    },
+    {
+      "categoryId": "data-and-predictive-analytics",
+      "displayName": "Data And Predictive Analytics",
+      "sourceAssets": [
+        "cards-txt",
+        "system-instructions",
+        "suggested-prompts"
+      ],
+      "presentationAssets": [
+        "ttt-deck"
+      ],
+      "solutioningAssets": [
+        "roth-patterns-deck"
+      ],
+      "followUpAssets": [
+        "faq-doc",
+        "partner-execution-guide"
+      ]
+    },
+    {
+      "categoryId": "decision-making",
+      "displayName": "Decision Making",
+      "sourceAssets": [
+        "cards-txt",
+        "system-instructions",
+        "suggested-prompts"
+      ],
+      "presentationAssets": [
+        "ttt-deck"
+      ],
+      "solutioningAssets": [
+        "roth-patterns-deck"
+      ],
+      "followUpAssets": [
+        "faq-doc",
+        "partner-execution-guide"
+      ]
+    },
+    {
+      "categoryId": "task-automation",
+      "displayName": "Task Automation",
+      "sourceAssets": [
+        "cards-txt",
+        "system-instructions",
+        "suggested-prompts"
+      ],
+      "presentationAssets": [
+        "ttt-deck"
+      ],
+      "solutioningAssets": [
+        "roth-patterns-deck"
+      ],
+      "followUpAssets": [
+        "faq-doc",
+        "partner-execution-guide"
+      ]
+    },
+    {
+      "categoryId": "visual-perception",
+      "displayName": "Visual Perception",
+      "sourceAssets": [
+        "cards-txt",
+        "system-instructions",
+        "suggested-prompts"
+      ],
+      "presentationAssets": [
+        "ttt-deck"
+      ],
+      "solutioningAssets": [
+        "roth-patterns-deck"
+      ],
+      "followUpAssets": [
+        "faq-doc",
+        "partner-execution-guide"
+      ]
+    },
+    {
+      "categoryId": "text-processing",
+      "displayName": "Text Processing",
+      "sourceAssets": [
+        "cards-txt",
+        "system-instructions",
+        "suggested-prompts"
+      ],
+      "presentationAssets": [
+        "ttt-deck"
+      ],
+      "solutioningAssets": [
+        "roth-patterns-deck"
+      ],
+      "followUpAssets": [
+        "faq-doc",
+        "partner-execution-guide"
+      ]
+    },
+    {
+      "categoryId": "communication",
+      "displayName": "Communication",
+      "sourceAssets": [
+        "cards-txt",
+        "system-instructions",
+        "suggested-prompts"
+      ],
+      "presentationAssets": [
+        "ttt-deck"
+      ],
+      "solutioningAssets": [
+        "roth-patterns-deck"
+      ],
+      "followUpAssets": [
+        "faq-doc",
+        "partner-execution-guide"
+      ]
+    },
+    {
+      "categoryId": "content-creation",
+      "displayName": "Content Creation",
+      "sourceAssets": [
+        "cards-txt",
+        "system-instructions",
+        "suggested-prompts"
+      ],
+      "presentationAssets": [
+        "ttt-deck"
+      ],
+      "solutioningAssets": [
+        "roth-patterns-deck"
+      ],
+      "followUpAssets": [
+        "faq-doc",
+        "partner-execution-guide"
+      ]
+    },
+    {
+      "categoryId": "speech-recognition",
+      "displayName": "Speech Recognition",
+      "sourceAssets": [
+        "cards-txt",
+        "system-instructions",
+        "suggested-prompts"
+      ],
+      "presentationAssets": [
+        "ttt-deck"
+      ],
+      "solutioningAssets": [
+        "roth-patterns-deck"
+      ],
+      "followUpAssets": [
+        "faq-doc",
+        "partner-execution-guide"
+      ]
+    },
+    {
+      "categoryId": "information-management",
+      "displayName": "Information Management",
+      "sourceAssets": [
+        "cards-txt",
+        "system-instructions",
+        "suggested-prompts"
+      ],
+      "presentationAssets": [
+        "ttt-deck"
+      ],
+      "solutioningAssets": [
+        "roth-patterns-deck"
+      ],
+      "followUpAssets": [
+        "faq-doc",
+        "partner-execution-guide"
+      ]
+    },
+    {
+      "categoryId": "agentic",
+      "displayName": "Agentic",
+      "sourceAssets": [
+        "system-instructions",
+        "suggested-prompts"
+      ],
+      "presentationAssets": [
+        "ttt-deck"
+      ],
+      "solutioningAssets": [
+        "roth-patterns-deck"
+      ],
+      "followUpAssets": [
+        "faq-doc",
+        "partner-execution-guide"
+      ]
+    }
+  ],
+  "cardAssetMap": [
+    {
+      "cardId": "navigation-and-control-automate-home-operations",
+      "displayName": "Automate home operations",
+      "categoryId": "navigation-and-control",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Automate home operations"
+      }
+    },
+    {
+      "cardId": "navigation-and-control-navigate",
+      "displayName": "Navigate",
+      "categoryId": "navigation-and-control",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Navigate"
+      }
+    },
+    {
+      "cardId": "navigation-and-control-human-robot-interaction",
+      "displayName": "Human-robot interaction",
+      "categoryId": "navigation-and-control",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Human-robot interaction"
+      }
+    },
+    {
+      "cardId": "navigation-and-control-automate-fulfillment",
+      "displayName": "Automate fulfillment",
+      "categoryId": "navigation-and-control",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Automate fulfillment"
+      }
+    },
+    {
+      "cardId": "environmental-awareness-interpret-touch-for-control",
+      "displayName": "Interpret touch for control",
+      "categoryId": "environmental-awareness",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Interpret touch for control"
+      }
+    },
+    {
+      "cardId": "environmental-awareness-understand-flavors-and-tastes",
+      "displayName": "Understand flavors and tastes",
+      "categoryId": "environmental-awareness",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Understand flavors and tastes"
+      }
+    },
+    {
+      "cardId": "environmental-awareness-predict-chemical-properties",
+      "displayName": "Predict chemical properties",
+      "categoryId": "environmental-awareness",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Predict chemical properties"
+      }
+    },
+    {
+      "cardId": "environmental-awareness-navigate-smartly-with-sensing",
+      "displayName": "Navigate smartly with sensing",
+      "categoryId": "environmental-awareness",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Navigate smartly with sensing"
+      }
+    },
+    {
+      "cardId": "environmental-awareness-detect-motion",
+      "displayName": "Detect motion",
+      "categoryId": "environmental-awareness",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Detect motion"
+      }
+    },
+    {
+      "cardId": "process-optimization-streamline-randd",
+      "displayName": "Streamline R&D",
+      "categoryId": "process-optimization",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Streamline R&D"
+      }
+    },
+    {
+      "cardId": "process-optimization-adjust-pricing",
+      "displayName": "Adjust pricing",
+      "categoryId": "process-optimization",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Adjust pricing"
+      }
+    },
+    {
+      "cardId": "process-optimization-improve-routing",
+      "displayName": "Improve routing",
+      "categoryId": "process-optimization",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Improve routing"
+      }
+    },
+    {
+      "cardId": "process-optimization-enhance-farming",
+      "displayName": "Enhance farming",
+      "categoryId": "process-optimization",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Enhance farming"
+      }
+    },
+    {
+      "cardId": "process-optimization-enhance-production",
+      "displayName": "Enhance production",
+      "categoryId": "process-optimization",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Enhance production"
+      }
+    },
+    {
+      "cardId": "process-optimization-manage-complex-systems",
+      "displayName": "Manage complex systems",
+      "categoryId": "process-optimization",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Manage complex systems"
+      }
+    },
+    {
+      "cardId": "process-optimization-spot-damage-predict-failure",
+      "displayName": "Spot damage, predict failure",
+      "categoryId": "process-optimization",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Spot damage, predict failure"
+      }
+    },
+    {
+      "cardId": "process-optimization-optimize-sales-workflows",
+      "displayName": "Optimize sales workflows",
+      "categoryId": "process-optimization",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Optimize sales workflows"
+      }
+    },
+    {
+      "cardId": "process-optimization-streamline-field-service",
+      "displayName": "Streamline field service",
+      "categoryId": "process-optimization",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Streamline field service"
+      }
+    },
+    {
+      "cardId": "process-optimization-simplify-app-development",
+      "displayName": "Simplify app development",
+      "categoryId": "process-optimization",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Simplify app development"
+      }
+    },
+    {
+      "cardId": "process-optimization-quality-control-and-maintenance",
+      "displayName": "Quality control & maintenance",
+      "categoryId": "process-optimization",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Quality control & maintenance"
+      }
+    },
+    {
+      "cardId": "data-and-predictive-analytics-visualize-data",
+      "displayName": "Visualize data",
+      "categoryId": "data-and-predictive-analytics",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Visualize data"
+      }
+    },
+    {
+      "cardId": "data-and-predictive-analytics-gain-market-insights",
+      "displayName": "Gain market insights",
+      "categoryId": "data-and-predictive-analytics",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Gain market insights"
+      }
+    },
+    {
+      "cardId": "data-and-predictive-analytics-analyze-sentiments",
+      "displayName": "Analyze sentiments",
+      "categoryId": "data-and-predictive-analytics",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Analyze sentiments"
+      }
+    },
+    {
+      "cardId": "data-and-predictive-analytics-identify-data-patterns",
+      "displayName": "Identify data patterns",
+      "categoryId": "data-and-predictive-analytics",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Identify data patterns"
+      }
+    },
+    {
+      "cardId": "data-and-predictive-analytics-detect-anomalies",
+      "displayName": "Detect anomalies",
+      "categoryId": "data-and-predictive-analytics",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Detect anomalies"
+      }
+    },
+    {
+      "cardId": "data-and-predictive-analytics-understand-customers",
+      "displayName": "Understand customers",
+      "categoryId": "data-and-predictive-analytics",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Understand customers"
+      }
+    },
+    {
+      "cardId": "data-and-predictive-analytics-predict-risk-or-fraud",
+      "displayName": "Predict risk or fraud",
+      "categoryId": "data-and-predictive-analytics",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Predict risk or fraud"
+      }
+    },
+    {
+      "cardId": "data-and-predictive-analytics-forecast-events-and-outcomes",
+      "displayName": "Forecast events & outcomes",
+      "categoryId": "data-and-predictive-analytics",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Forecast events & outcomes"
+      }
+    },
+    {
+      "cardId": "data-and-predictive-analytics-predict-customer-churn",
+      "displayName": "Predict customer churn",
+      "categoryId": "data-and-predictive-analytics",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Predict customer churn"
+      }
+    },
+    {
+      "cardId": "data-and-predictive-analytics-predict-and-plan-demand",
+      "displayName": "Predict & plan demand",
+      "categoryId": "data-and-predictive-analytics",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Predict & plan demand"
+      }
+    },
+    {
+      "cardId": "data-and-predictive-analytics-simplify-data-analysis",
+      "displayName": "Simplify data analysis",
+      "categoryId": "data-and-predictive-analytics",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Simplify data analysis"
+      }
+    },
+    {
+      "cardId": "decision-making-spot-anomalies",
+      "displayName": "Spot anomalies",
+      "categoryId": "decision-making",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Spot anomalies"
+      }
+    },
+    {
+      "cardId": "decision-making-moderate-content",
+      "displayName": "Moderate content",
+      "categoryId": "decision-making",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Moderate content"
+      }
+    },
+    {
+      "cardId": "decision-making-enhance-decisions",
+      "displayName": "Enhance decisions",
+      "categoryId": "decision-making",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Enhance decisions"
+      }
+    },
+    {
+      "cardId": "decision-making-personalize-content",
+      "displayName": "Personalize content",
+      "categoryId": "decision-making",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Personalize content"
+      }
+    },
+    {
+      "cardId": "decision-making-boost-sales-with-insights",
+      "displayName": "Boost sales with insights",
+      "categoryId": "decision-making",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Boost sales with insights"
+      }
+    },
+    {
+      "cardId": "decision-making-streamline-financial-processes",
+      "displayName": "Streamline financial processes",
+      "categoryId": "decision-making",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Streamline financial processes"
+      }
+    },
+    {
+      "cardId": "decision-making-refine-processes",
+      "displayName": "Refine processes",
+      "categoryId": "decision-making",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Refine processes"
+      }
+    },
+    {
+      "cardId": "decision-making-optimize-strategy",
+      "displayName": "Optimize strategy",
+      "categoryId": "decision-making",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Optimize strategy"
+      }
+    },
+    {
+      "cardId": "decision-making-resolve-complex-issues",
+      "displayName": "Resolve complex issues",
+      "categoryId": "decision-making",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Resolve complex issues"
+      }
+    },
+    {
+      "cardId": "task-automation-help-with-admin-tasks",
+      "displayName": "Help with admin tasks",
+      "categoryId": "task-automation",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Help with admin tasks"
+      }
+    },
+    {
+      "cardId": "task-automation-simplify-household-tasks",
+      "displayName": "Simplify household tasks",
+      "categoryId": "task-automation",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Simplify household tasks"
+      }
+    },
+    {
+      "cardId": "task-automation-help-with-personal-tasks",
+      "displayName": "Help with personal tasks",
+      "categoryId": "task-automation",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Help with personal tasks"
+      }
+    },
+    {
+      "cardId": "task-automation-workflow-creation",
+      "displayName": "Workflow creation",
+      "categoryId": "task-automation",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Workflow creation"
+      }
+    },
+    {
+      "cardId": "visual-perception-recognize-and-understand-forms",
+      "displayName": "Recognize and understand forms",
+      "categoryId": "visual-perception",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Recognize and understand forms"
+      }
+    },
+    {
+      "cardId": "visual-perception-identify-objects",
+      "displayName": "Identify objects",
+      "categoryId": "visual-perception",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Identify objects"
+      }
+    },
+    {
+      "cardId": "visual-perception-convert-images-to-text",
+      "displayName": "Convert images to text",
+      "categoryId": "visual-perception",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Convert images to text"
+      }
+    },
+    {
+      "cardId": "visual-perception-identify-faces",
+      "displayName": "Identify faces",
+      "categoryId": "visual-perception",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Identify faces"
+      }
+    },
+    {
+      "cardId": "visual-perception-understand-environments",
+      "displayName": "Understand environments",
+      "categoryId": "visual-perception",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Understand environments"
+      }
+    },
+    {
+      "cardId": "visual-perception-analyze-images",
+      "displayName": "Analyze images",
+      "categoryId": "visual-perception",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Analyze images"
+      }
+    },
+    {
+      "cardId": "visual-perception-categorize-images",
+      "displayName": "Categorize images",
+      "categoryId": "visual-perception",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Categorize images"
+      }
+    },
+    {
+      "cardId": "visual-perception-create-image-captions",
+      "displayName": "Create image captions",
+      "categoryId": "visual-perception",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Create image captions"
+      }
+    },
+    {
+      "cardId": "visual-perception-generate-image-metadata",
+      "displayName": "Generate image metadata",
+      "categoryId": "visual-perception",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Generate image metadata"
+      }
+    },
+    {
+      "cardId": "text-processing-analyze-emotion-and-sentiment",
+      "displayName": "Analyze emotion and sentiment",
+      "categoryId": "text-processing",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Analyze emotion and sentiment"
+      }
+    },
+    {
+      "cardId": "text-processing-generate-contextual-text",
+      "displayName": "Generate contextual text",
+      "categoryId": "text-processing",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Generate contextual text"
+      }
+    },
+    {
+      "cardId": "text-processing-summarize-text",
+      "displayName": "Summarize text",
+      "categoryId": "text-processing",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Summarize text"
+      }
+    },
+    {
+      "cardId": "text-processing-translate-text",
+      "displayName": "Translate text",
+      "categoryId": "text-processing",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Translate text"
+      }
+    },
+    {
+      "cardId": "communication-engage-in-natural-conversations",
+      "displayName": "Engage in natural conversations",
+      "categoryId": "communication",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Engage in natural conversations"
+      }
+    },
+    {
+      "cardId": "communication-convert-text-into-speech",
+      "displayName": "Convert text into speech",
+      "categoryId": "communication",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Convert text into speech"
+      }
+    },
+    {
+      "cardId": "communication-automate-answers",
+      "displayName": "Automate answers",
+      "categoryId": "communication",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Automate answers"
+      }
+    },
+    {
+      "cardId": "communication-translate-speech-instantly",
+      "displayName": "Translate speech instantly",
+      "categoryId": "communication",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Translate speech instantly"
+      }
+    },
+    {
+      "cardId": "communication-communicate-via-avatar",
+      "displayName": "Communicate via avatar",
+      "categoryId": "communication",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Communicate via avatar"
+      }
+    },
+    {
+      "cardId": "communication-understand-user-intent",
+      "displayName": "Understand user intent",
+      "categoryId": "communication",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Understand user intent"
+      }
+    },
+    {
+      "cardId": "content-creation-generate-images-from-text",
+      "displayName": "Generate images from text",
+      "categoryId": "content-creation",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Generate images from text"
+      }
+    },
+    {
+      "cardId": "content-creation-generate-or-enhance-text",
+      "displayName": "Generate or enhance text",
+      "categoryId": "content-creation",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Generate or enhance text"
+      }
+    },
+    {
+      "cardId": "content-creation-generate-synthetic-data",
+      "displayName": "Generate synthetic data",
+      "categoryId": "content-creation",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Generate synthetic data"
+      }
+    },
+    {
+      "cardId": "content-creation-personalize-marketing",
+      "displayName": "Personalize marketing",
+      "categoryId": "content-creation",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Personalize marketing"
+      }
+    },
+    {
+      "cardId": "content-creation-create-dynamic-web-pages",
+      "displayName": "Create dynamic web pages",
+      "categoryId": "content-creation",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Create dynamic web pages"
+      }
+    },
+    {
+      "cardId": "speech-recognition-convert-speech-to-text",
+      "displayName": "Convert speech to text",
+      "categoryId": "speech-recognition",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Convert speech to text"
+      }
+    },
+    {
+      "cardId": "speech-recognition-identify-voices",
+      "displayName": "Identify voices",
+      "categoryId": "speech-recognition",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Identify voices"
+      }
+    },
+    {
+      "cardId": "speech-recognition-activate-with-keyword",
+      "displayName": "Activate with keyword",
+      "categoryId": "speech-recognition",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Activate with keyword"
+      }
+    },
+    {
+      "cardId": "speech-recognition-enable-voice-commands",
+      "displayName": "Enable voice commands",
+      "categoryId": "speech-recognition",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Enable voice commands"
+      }
+    },
+    {
+      "cardId": "speech-recognition-understand-special-context",
+      "displayName": "Understand special context",
+      "categoryId": "speech-recognition",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Understand special context"
+      }
+    },
+    {
+      "cardId": "speech-recognition-mimic-specific-voices",
+      "displayName": "Mimic specific voices",
+      "categoryId": "speech-recognition",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Mimic specific voices"
+      }
+    },
+    {
+      "cardId": "information-management-extract-information",
+      "displayName": "Extract information",
+      "categoryId": "information-management",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Extract information"
+      }
+    },
+    {
+      "cardId": "information-management-retrieve-information",
+      "displayName": "Retrieve information",
+      "categoryId": "information-management",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Retrieve information"
+      }
+    },
+    {
+      "cardId": "information-management-organize-data",
+      "displayName": "Organize data",
+      "categoryId": "information-management",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Organize data"
+      }
+    },
+    {
+      "cardId": "information-management-discover-patterns",
+      "displayName": "Discover patterns",
+      "categoryId": "information-management",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Discover patterns"
+      }
+    },
+    {
+      "cardId": "information-management-structure-raw-data",
+      "displayName": "Structure raw data",
+      "categoryId": "information-management",
+      "primarySourceAsset": "cards-txt",
+      "supportingAssets": [
+        "system-instructions",
+        "suggested-prompts",
+        "ttt-deck",
+        "roth-patterns-deck"
+      ],
+      "traceability": {
+        "repository": "microsoft-partner-solutions-ai/agent-guides",
+        "package": "ai-discovery-cards-agent",
+        "sourceFile": "uploaded-files/cards.txt",
+        "sourceName": "Structure raw data"
+      }
+    }
+  ]
+}

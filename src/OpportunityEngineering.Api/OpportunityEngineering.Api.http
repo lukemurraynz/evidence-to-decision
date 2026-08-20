@@ -1,0 +1,6 @@
+@OpportunityEngineering.Api_HostAddress = http://localhost:5194
+
+GET {{OpportunityEngineering.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

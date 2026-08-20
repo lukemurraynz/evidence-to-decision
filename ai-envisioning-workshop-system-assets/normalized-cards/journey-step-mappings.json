@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "version": "0.2",
+    "purpose": "Initial mapping from workshop journey stages to likely card categories and workshop prompts.",
+    "basis": [
+      "ai-discovery-cards-agent system instructions",
+      "ai-discovery-cards-agent suggested prompts",
+      "AI envisioning workshop spec design-thinking flow"
+    ],
+    "notes": [
+      "The Agentic category was added as an overlay from system-instructions.md because it is called out in the workshop operating model but is not present in the parsed full card list object."
+    ]
+  },
+  "journeyStages": [
+    {
+      "stageId": "pre-workshop-prep",
+      "displayName": "Pre-workshop prep",
+      "description": "Prepare interview questions, gather context, and understand business goals before the live card session.",
+      "recommendedCategories": [
+        "information-management",
+        "communication",
+        "task-automation"
+      ],
+      "promptModes": [
+        "Prep Interview Call"
+      ],
+      "outputs": [
+        "prep questions",
+        "stakeholder context",
+        "known goals and constraints"
+      ]
+    },
+    {
+      "stageId": "persona-and-journey-mapping",
+      "displayName": "Persona and journey mapping",
+      "description": "Create personas and a 4-6 step journey map showing pain points, opportunities, use cases, and metrics.",
+      "recommendedCategories": [
+        "communication",
+        "text-processing",
+        "information-management",
+        "decision-making"
+      ],
+      "promptModes": [
+        "Persona & Journey Map"
+      ],
+      "outputs": [
+        "persona",
+        "journey map",
+        "pain points",
+        "opportunity areas",
+        "success metrics"
+      ]
+    },
+    {
+      "stageId": "card-recommendation-and-use-case-mapping",
+      "displayName": "Card recommendation and use-case mapping",
+      "description": "Recommend the top 10 relevant discovery cards and attach them to journey steps with reasons.",
+      "recommendedCategories": [
+        "process-optimization",
+        "data-and-predictive-analytics",
+        "decision-making",
+        "task-automation",
+        "communication",
+        "information-management",
+        "content-creation",
+        "visual-perception",
+        "speech-recognition",
+        "environmental-awareness",
+        "navigation-and-control"
+      ],
+      "promptModes": [
+        "AI Card Recommendation"
+      ],
+      "outputs": [
+        "top-10-card shortlist",
+        "card-to-journey-step mapping",
+        "rationale for each card"
+      ]
+    },
+    {
+      "stageId": "solution-shaping",
+      "displayName": "Solution shaping",
+      "description": "Translate shortlisted cards into Microsoft solution recommendations and supporting use-case/tech patterns.",
+      "recommendedCategories": [
+        "process-optimization",
+        "data-and-predictive-analytics",
+        "decision-making",
+        "task-automation",
+        "communication",
+        "content-creation",
+        "information-management"
+      ],
+      "promptModes": [
+        "Use Case & Accelerator"
+      ],
+      "outputs": [
+        "solution recommendations",
+        "service mapping",
+        "relevant accelerator or pattern references"
+      ]
+    },
+    {
+      "stageId": "cost-and-feasibility",
+      "displayName": "Cost and feasibility",
+      "description": "Explore implementation time, cost factors, data-estate considerations, and deployment implications.",
+      "recommendedCategories": [
+        "process-optimization",
+        "task-automation",
+        "information-management",
+        "decision-making"
+      ],
+      "promptModes": [
+        "Implementation Cost"
+      ],
+      "outputs": [
+        "cost factors",
+        "implementation considerations",
+        "partner questions needed for better estimates"
+      ]
+    },
+    {
+      "stageId": "follow-up-engagement-planning",
+      "displayName": "Follow-up engagement planning",
+      "description": "Recommend next engagement type and SME profile once a use case and maturity level are clear.",
+      "recommendedCategories": [
+        "agentic",
+        "information-management",
+        "decision-making",
+        "task-automation"
+      ],
+      "promptModes": [
+        "Follow-up Engagement Planning"
+      ],
+      "outputs": [
+        "next engagement type",
+        "SME recommendations",
+        "pilot or architecture session handoff"
+      ]
+    }
+  ]
+}
