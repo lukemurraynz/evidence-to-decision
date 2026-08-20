@@ -1,4 +1,4 @@
-# Evidence to Decision — Frontend
+# Evidence to Decision: Frontend
 
 Browser-based evidence capture and review interface for the AI Opportunity Engineering workshop system. Facilitators capture attributed evidence, decision reviewers assess readiness, executives review outcomes, and delivery leads generate documents, all from a single hash-routed SPA backed by the Opportunity Engineering API.
 
