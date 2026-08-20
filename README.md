@@ -70,7 +70,7 @@ docker build --tag opportunity-engineering:validation .
 The API fails startup when required authorization or guardrail configuration is
 missing or invalid. Deployment configuration must provide:
 
-- `AzureAd__TenantId` and `AzureAd__ClientId`
+- `EntraID__TenantID` and `EntraID__ClientID`
 - `WorkspaceAuthorizationJson`, containing workspace IDs and immutable
   facilitator, reviewer, and admin group object IDs
 - `Cosmos__AccountEndpoint`, `Cosmos__DatabaseName`, and

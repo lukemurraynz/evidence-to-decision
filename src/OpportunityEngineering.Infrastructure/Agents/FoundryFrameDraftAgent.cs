@@ -149,12 +149,23 @@ public sealed class FoundryFrameDraftAgent(
                     "by a case-insensitive keyword match against note text. Returns up to 20 matches.")]
         });
 
-        var draft = await RunAgentAsync();
         IReadOnlyList<FrameDraftCandidate> candidates;
         try
         {
-            candidates = FrameDraftOutputValidator.Validate(
-                draft, [.. graph.Evidence.Select(item => item.Id)]);
+            // Sampling occasionally paraphrases an evidence Id instead of copying it literally;
+            // one retry clears most of these without hiding a systemic prompt/schema problem.
+            var draft = await RunAgentAsync();
+            try
+            {
+                candidates = FrameDraftOutputValidator.Validate(
+                    draft, [.. graph.Evidence.Select(item => item.Id)]);
+            }
+            catch (DomainException)
+            {
+                draft = await RunAgentAsync();
+                candidates = FrameDraftOutputValidator.Validate(
+                    draft, [.. graph.Evidence.Select(item => item.Id)]);
+            }
         }
         catch (Exception exception) when (exception is not OperationCanceledException)
         {

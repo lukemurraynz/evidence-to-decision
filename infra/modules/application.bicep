@@ -596,15 +596,15 @@ resource app 'Microsoft.App/containerApps@2025-07-01' = {
               value: identity.properties.clientId
             }
             {
-              name: 'AzureAd__Instance'
+              name: 'EntraID__Instance'
               value: environment().authentication.loginEndpoint
             }
             {
-              name: 'AzureAd__TenantId'
+              name: 'EntraID__TenantID'
               value: entraTenantId
             }
             {
-              name: 'AzureAd__ClientId'
+              name: 'EntraID__ClientID'
               value: apiApp.appId
             }
             {

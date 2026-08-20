@@ -89,16 +89,31 @@ public sealed class FoundryBoardClusterAgent(
         activity?.SetTag("correlation.id", actor.CorrelationId);
         activity?.SetTag("board.card_count", cards.Count);
 
-        var draft = await RunAgentAsync();
         BoardClusterResult result;
         try
         {
-            result = BoardClusterOutputValidator.Validate(
-                draft,
-                [.. cards.Select(card => card.PlacementId)],
-                actor.CorrelationId,
-                settings.ModelIdentity,
-                timeProvider.GetUtcNow());
+            // Sampling occasionally paraphrases a PlacementId instead of copying it literally;
+            // one retry clears most of these without hiding a systemic prompt/schema problem.
+            var draft = await RunAgentAsync();
+            try
+            {
+                result = BoardClusterOutputValidator.Validate(
+                    draft,
+                    [.. cards.Select(card => card.PlacementId)],
+                    actor.CorrelationId,
+                    settings.ModelIdentity,
+                    timeProvider.GetUtcNow());
+            }
+            catch (DomainException)
+            {
+                draft = await RunAgentAsync();
+                result = BoardClusterOutputValidator.Validate(
+                    draft,
+                    [.. cards.Select(card => card.PlacementId)],
+                    actor.CorrelationId,
+                    settings.ModelIdentity,
+                    timeProvider.GetUtcNow());
+            }
         }
         catch (Exception exception) when (exception is not OperationCanceledException)
         {

@@ -16,7 +16,7 @@ internal static class AuthenticationExtensions
 
         builder.Services
             .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-            .AddMicrosoftIdentityWebApi(builder.Configuration.GetRequiredSection("AzureAd"))
+            .AddMicrosoftIdentityWebApi(builder.Configuration.GetRequiredSection("EntraID"))
             .Services
             .AddAuthentication()
             .AddJwtBearer(ParticipantTokenIssuer.Scheme, options =>

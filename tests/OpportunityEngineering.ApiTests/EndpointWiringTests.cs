@@ -22,9 +22,9 @@ public sealed class EndpointWiringTests
     // the actual configured JwtBearerOptions rather than a hand-maintained guess of them.
     internal static readonly IReadOnlyDictionary<string, string> TestConfiguration = new Dictionary<string, string>
     {
-        ["AzureAd__Instance"] = "https://login.microsoftonline.com/",
-        ["AzureAd__TenantId"] = "00000000-0000-0000-0000-000000000000",
-        ["AzureAd__ClientId"] = "00000000-0000-0000-0000-000000000001",
+        ["EntraID__Instance"] = "https://login.microsoftonline.com/",
+        ["EntraID__TenantID"] = "00000000-0000-0000-0000-000000000000",
+        ["EntraID__ClientID"] = "00000000-0000-0000-0000-000000000001",
         ["WorkspaceAuthorizationJson"] = """
             {"workspaces":{"workspace-1":{
                 "FacilitatorGroupObjectIds":["00000000-0000-0000-0000-0000000000f1"],

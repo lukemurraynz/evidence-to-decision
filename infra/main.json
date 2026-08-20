@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.43.8.12551",
-      "templateHash": "9559268256522001572"
+      "templateHash": "2542751824627411475"
     }
   },
   "parameters": {
@@ -149,7 +149,7 @@
             "_generator": {
               "name": "bicep",
               "version": "0.43.8.12551",
-              "templateHash": "49794552461408506"
+              "templateHash": "7300078921643192504"
             }
           },
           "parameters": {
@@ -825,15 +825,15 @@
                           "value": "[reference('identity').clientId]"
                         },
                         {
-                          "name": "AzureAd__Instance",
+                          "name": "EntraID__Instance",
                           "value": "[environment().authentication.loginEndpoint]"
                         },
                         {
-                          "name": "AzureAd__TenantId",
+                          "name": "EntraID__TenantID",
                           "value": "[parameters('entraTenantId')]"
                         },
                         {
-                          "name": "AzureAd__ClientId",
+                          "name": "EntraID__ClientID",
                           "value": "[reference('apiApp').appId]"
                         },
                         {

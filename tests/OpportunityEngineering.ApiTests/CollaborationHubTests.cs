@@ -43,7 +43,7 @@ public sealed class CollaborationHubTests
     [TestMethod]
     public async Task JoinSessionForAFacilitatorConnectionIgnoresTheTokensUnrelatedEntraSidClaim()
     {
-        // Azure AD access tokens carry their own standard "sid" claim (the AAD session id),
+        // Entra ID access tokens carry their own standard "sid" claim (the Entra session id),
         // which has nothing to do with our live-vote session. A facilitator must still land
         // in the group they actually asked to watch, not one keyed by that unrelated claim.
         var hub = CreateHub(out _, out var groups);
